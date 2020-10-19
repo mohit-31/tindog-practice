@@ -1,0 +1,152 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+body{
+  font-family:Montserrat;
+}
+
+h1{
+
+  font: Montserrat-Black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-size: 3rem;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar-brand{
+  font: Ubuntu;
+
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom:  4.5rem;
+  padding-left: 18px;
+  padding-right: 0;
+  padding-top: 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font: Montserrat-light;
+  font-size: 1.2rem;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.iphone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30px;
+
+
+
+}
+
+#features{
+   padding:7% 15%;
+  background-color: white;
+  text-align: center;
+position: relative;
+z-index: 1;
+
+
+
+}
+.ft-p{
+  color: #8f8f8f;
+
+}
+.ft-col{
+  padding: 5%;
+}
+.ft-h3{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+.ft-icon{
+  color: #ef8172;
+
+margin-bottom:  1rem;
+
+}
+.ft-icon:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  background-color: #ef8172;
+
+  text-align: center;
+
+
+}
+.testimonial-text{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.price-col{
+  padding: 3% 2%;
+}
+.price-text{
+  font-family: "Montserrat-bold-";
+}
+@media (max-width:1400px){
+  #title{
+    text-align: center;
+  }
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding:7% 15%;
+  text-align: center;
+}
+.cta-h3{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.footer-icon{
+  padding-bottom: 20px;
+  margin: 20px 20px;
+}
